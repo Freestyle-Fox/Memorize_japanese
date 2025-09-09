@@ -8,20 +8,20 @@ body {
 #app {
   background: white;
   display: inline-block;
-  padding: 40px; /* bigger padding */
+  padding: 40px; 
   border-radius: 15px;
   box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
 }
 
 #keyDisplay {
-  font-size: 36px;   /* bigger key text */
+  font-size: 36px;  
   font-weight: bold;
   color: #222;
   margin-bottom: 20px;
 }
 
 #valueDisplay {
-  font-size: 28px;   /* bigger value text */
+  font-size: 28px;   
   font-weight: 500;
   color: #0077cc;
   margin-top: 15px;
@@ -29,17 +29,14 @@ body {
 
 button {
   margin: 10px;
-  padding: 10px 20px;     /* smaller size */
+  padding: 10px 20px;     
   border: 2px solid #0077cc;
   border-radius: 8px;
-  background: transparent;  /* transparent background */
+  background: transparent; 
   color: #0077cc;
-  font-size: 18px;        /* slightly smaller text */
-  cursor: pointer;
-  transition: all 0.3s ease; /* smooth hover effect */
-}
+  font-size: 18px;        
+  transition: all 0.3s ease;
 
 button:hover {
-  background: #0077cc;    /* blue fill on hover */
-  color: white;           /* white text when hovered */
-}
+  background: #0077cc;   
+  color: white;           
